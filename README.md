@@ -6,7 +6,7 @@
 Cross-platform P2P file/folder transfer.
 
 
-**NEEDS MORE WORK, FOR NOW ONLY DEMO!!**
+⚙ **NEEDS MORE WORK, FOR NOW ONLY DEMO!!** ⚙
 
 **NOTE:** *THIS REPO IS USED FOR TRACKING RELEASES*
 
@@ -16,6 +16,30 @@ If you want just to be able to **simply** send **directly** files/folders betwee
 In core, it uses `webrtc` tech to establish **e2e encrypted** connection and transfer data **directly** between your devices.
 
 **Wirefile clients** connect to server only for ***signaling, authentication and some metadata exchange***.
+
+## Features:
+- same cross-platform GUI design (mobile as well).
+- p2p file transfer
+- e2e encryption powered by `webrtc`
+- Multifolder sharing and auto file tree updates on file changes.
+
+# Installing latest packages
+
+## Linux (manual)
+
+- Download [wirefile.tar.xz](https://github.com/emiago/wirefile/releases/latest/download/wirefile.tar.xz)
+```
+tar xf wirefile.tar.xz; 
+make user-install
+```
+
+## Android (manual)
+
+- Download [wirefile.apk](https://github.com/emiago/wirefile/releases/latest/download/wirefile.apk)
+- Allow file media permissions
+- Down
+
+
 
 # Clients
 Metadata is **never** about content of files, but sharing like file tree names makes clients faster exploring.
@@ -29,7 +53,5 @@ Same GUI design on all platforms:
 
 
 
-## CLI tool 
-Todo...
 
 
